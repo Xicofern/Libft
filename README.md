@@ -151,5 +151,5 @@ To have a deeper understanding of how each function works, I also used several w
 [stackoverflow](https://stackoverflow.com),
 [w3school](https://www.w3schools.com/) and 
 [opengroup](https://pubs.opengroup.org/).
-AI tools, more specifically [charGPT](https://chatgpt.com/), were also used to ask questions about errors which nether my peers or I
+AI tools, more specifically [chatGPT](https://chatgpt.com/), were also used to ask questions about errors which neither my peers or I
 were able to solve, as well as to clarify specific questions about topics I struggled with such as linked lists.
