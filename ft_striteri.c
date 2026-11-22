@@ -6,7 +6,7 @@
 /*   By: jpimenta <jpimenta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 14:51:40 by jpimenta          #+#    #+#             */
-/*   Updated: 2026/11/15 15:02:45 by jpimenta         ###   ########.fr       */
+/*   Updated: 2026/11/18 15:15:17 by jpimenta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	int		i;
+	size_t		i;
 
 	i = 0;
 	if (!s || !f)

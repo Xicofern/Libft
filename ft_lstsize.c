@@ -6,13 +6,13 @@
 /*   By: jpimenta <jpimenta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 16:17:59 by jpimenta          #+#    #+#             */
-/*   Updated: 2026/11/15 16:54:32 by jpimenta         ###   ########.fr       */
+/*   Updated: 2026/11/18 14:02:50 by jpimenta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned int ft_lstsize(t_list *lst)
+unsigned int	ft_lstsize(t_list *lst)
 {
 	int	i;
 

@@ -6,7 +6,7 @@
 /*   By: jpimenta <jpimenta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 14:06:28 by jpimenta          #+#    #+#             */
-/*   Updated: 2026/11/15 14:35:15 by jpimenta         ###   ########.fr       */
+/*   Updated: 2026/11/18 15:15:55 by jpimenta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*str;
 	char	*dest;
-	int		i;
+	size_t	i;
 
 	i = 0;
 	str = (char *)s;

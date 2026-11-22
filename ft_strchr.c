@@ -6,7 +6,7 @@
 /*   By: jpimenta <jpimenta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 11:13:29 by jpimenta          #+#    #+#             */
-/*   Updated: 2026/11/14 09:47:02 by jpimenta         ###   ########.fr       */
+/*   Updated: 2026/11/18 15:17:59 by jpimenta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)&s[i]);
 		i++;
 	}
-	if (c == '\0')
+	if ((unsigned char)c == '\0')
 		return ((char *)&s[i]);
 	return (NULL);
 }

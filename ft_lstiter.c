@@ -6,17 +6,17 @@
 /*   By: jpimenta <jpimenta@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 17:32:46 by jpimenta          #+#    #+#             */
-/*   Updated: 2026/11/15 17:45:29 by jpimenta         ###   ########.fr       */
+/*   Updated: 2026/11/18 13:56:46 by jpimenta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstiter(t_list *lst, void (*f)(void *))
+void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	if (!lst || !f)
 		return ;
-	while(lst)
+	while (lst)
 	{
 		f(lst->content);
 		lst = lst->next;
